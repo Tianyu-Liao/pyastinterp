@@ -841,3 +841,4 @@ if __name__ == "__main__":
     sys.path[0] = os.path.dirname(os.path.abspath(fname))
     interp = Interpreter(fname)
     interp.visit(tree)
+    a = 1
